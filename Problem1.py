@@ -1,14 +1,8 @@
 #Marissa Jones
-#11-14-2023
 
-#CSS225 Lab Activity Week 8
+#12,07.23
 
-def Equals(a,b):
-    if a==b:
-        print("{} and {} are not equal".format(a,b))
-    else:
-        print("{} and are not equal".format(a,b))
+#Module 9 Lab Activity
 
-Equals(15,15)
-
-Equals(15,10)
+while True:
+    print("infinite")

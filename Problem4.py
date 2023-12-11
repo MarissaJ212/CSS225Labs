@@ -1,20 +1,15 @@
 #Marissa Jones
-#11-14-2023
 
-#CSS225 Lab Activity Week 8
+#12,07.23
 
-def checkLeapYear(year):
+#Module 9 Lab Activity
 
-    if (year % 4) == 0:
-        if (year % 100) == 0:
-            if (year % 400) == 0:
-                print("{0} is a leap year".format(year))
+counter = 0
+tens = []
 
-        else:
-            print("{0} is not a leap year".format(year))
+while counter <= 50:
+    if counter % 10 == 0:
+        tens.append(counter)
+    counter += 1
 
-    else:
-        print("{0} is a leap year".format(year))
-
-checkLeapYear(2021)
-checkLeapYear(2000)
+print(tens)

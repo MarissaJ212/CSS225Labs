@@ -1,16 +1,14 @@
 #Marissa Jones
-#11-14-2023
 
-#CSS225 Lab Activity Week 8
+#12,07.23
 
-def checkFunction(lst):
+#Module 9 Lab Activity
 
-    if 5 in lst:
-        print("Value 5 is present in that list.")
+numbers = []
+counter = 0
 
-    else:
-        print("Value 5 is not present in that list.")
+while counter <= 35:
+    numbers.append(counter)
+    counter += 1
 
-
-checkFunction([1,2,3,4,5])
-checkFunction([2,4,6,8,10,12])
+print(numbers)
